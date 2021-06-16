@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+body{
+    margin: 0;
+}
+
 
 .heading{
     margin-top: 100px;
@@ -89,14 +93,30 @@ h5{
 }
 
 
-@media (max-width : 600px) {
+@media (max-width : 480px) {
     .card {
-        width: 15%;
-        min-width: 200px;
-        height: auto;
-        margin: 30px 10px;
+        width: 37%;
         cursor: pointer;
         background-color: #fff;
         box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+    }
+    
+    #card-container{
+        display: flex;       
+        padding: 0 4%;
+    }
+    #card-container1{
+        display: flex;
+        padding: 0 4%;
+    }
+    .heading{
+        margin-top: 50px;
+        margin-left: 4%;
+        margin-bottom: 0;
+        color: rgb(27, 25, 25);
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
     }
 }
